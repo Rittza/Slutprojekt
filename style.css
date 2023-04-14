@@ -1,13 +1,37 @@
 body{
     background-image:url(https://e1.pxfuel.com/desktop-wallpaper/577/461/desktop-wallpaper-heavy-metal-backgrounds-group-background-heavy-metal.jpg) ;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "nav nav"
+    "main main"
+    "footer footer" ;
 }
-.metal{
-    width: 50vh;
-    height: 25vw;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+
+header{
+    grid-area: header;
+
 }
+nav{
+    grid-area: nav;
+
+}
+nav > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: grey;
+    padding: 1%;
+    margin: 0%;
+}
+
+nav li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+
 h1{
     text-align: center;
     font-size: 5em;
@@ -16,4 +40,30 @@ h1{
 footer{
     text-align: center;
     font-size: 3em;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0%;
+    margin: 0%;
+    background-color: grey;
+}
+.wrapper{
+    width: 100%;
+}
+
+
+section{
+    font-size: 2em;
+}
+
+.metal{
+    width: 50vh;
+    height: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+@media only screen and (min-width: 1000px){
+    .wrapper{
+        width:1000px
+    }
 }
