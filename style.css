@@ -50,10 +50,14 @@ footer{
     font-size: 3em;
     display:grid;
     grid-template-columns: 1fr;
-    padding: 0%;
-    margin: 0%;
+    padding: 1%;
+    margin: 0;
     background-color: grey;
 
+}
+
+footer p{
+    margin:0;
 }
 main{
     grid-area:main;
