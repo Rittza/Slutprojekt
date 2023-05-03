@@ -23,7 +23,7 @@ nav{
 }
 nav > ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: grey;
     padding: 1%;
     margin: 0%;
@@ -74,7 +74,6 @@ section{
 
 .metal{
     width: 60vh;
-    height: 30vw;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -83,6 +82,24 @@ section{
 .lemmy{
     width: 60vh;
     height: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2em;
+}
+.metallica{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2em;
+}
+.inflames{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2em;
+}
+.slipknot{
     margin-left: auto;
     margin-right: auto;
     display: block;
