@@ -71,6 +71,11 @@ section{
     text-align: center;
     color:white;
 }
+table, th, td{
+    border: 1px solid;
+    margin-top:2em;
+    border-collapse: collapse;
+}
 
 .metal{
     width: 60vh;
