@@ -23,7 +23,7 @@ nav{
 }
 nav > ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: grey;
     padding: 1%;
     margin: 0;
@@ -80,10 +80,14 @@ section{
     text-align: center;
     color:white;
 }
+table, th, td{
+    border: 1px solid;
+    margin-top:2em;
+    border-collapse: collapse;
+}
 
 .metal{
     width: 60vh;
-    height: 30vw;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -98,12 +102,31 @@ section{
     margin-top: 2em;
 }
 .metallica{
+<<<<<<< HEAD
     width: 20vh;
     height: 10vw;
+=======
+>>>>>>> 76c38621224e87a020199e5e9c36ac5801c91ceb
     margin-left: auto;
     margin-right: auto;
     display: block;
     margin-top: 2em;
+<<<<<<< HEAD
+=======
+}
+.inflames{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2em;
+}
+.slipknot{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2em;
+}
+>>>>>>> 76c38621224e87a020199e5e9c36ac5801c91ceb
 
 }
 .inflames{
